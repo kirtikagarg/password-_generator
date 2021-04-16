@@ -6,7 +6,6 @@ age = input("what is your age?")
 shift= int(input("how many places to shift in string ?"))
 output1 = ""
 output2 = ""
-output3 = ""
 output4 = ""
 for char in f_name:
     output1 += chr(ord(char)+shift)
